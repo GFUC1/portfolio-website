@@ -1,1 +1,1 @@
-The files here is different from the ones on Vercel(I uploaded from vercel first from vscode), will not include most images instead i will modify html to use links from external sources.
+The files here is different from the ones on Vercel(I uploaded from vercel first from vscode), will not include most images instead i will modify html to use links from external sources. But just incase I still uploaded to vercel
