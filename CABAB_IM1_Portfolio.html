@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="Portfolio of Gil Febreane U. Cabab - Web developer skilled in Three.js, Node.js, and interactive web apps.">
+<meta name="keywords" content="Portfolio,Web Developer,Three.js,Node.js,Godot,Electron">
+<meta name="author" content="Gil Febreane U. Cabab">
+<title>Gil Febreane U. Cabab — Portfolio</title>
+<link rel="stylesheet" href="CABAB_IM1_Portfolio.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <a class="brand" href="#home">GIL CABAB</a>
+    <button id="navToggle" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+    <nav id="mainNav" role="navigation" aria-label="Main Navigation">
+      <ul class="navbar">
+        <li><a class="nav-link" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#skillhobby">Skills & Hobbies</a></li>
+        <li><a class="nav-link" href="#hire">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="home" class="home">
+    <div class="container">
+      <div class="details">
+        <h1>I'm Gil Febreane Ursos Cabab</h1>
+        <p class="lead">This portfolio showcases my web development work, interactive 3D experiments with Three.js, and backend projects using Node.js.</p>
+        <img src="image.jpg" alt="Profile image" class="profile-img">
+        <div class="home-cta">
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="btn ghost" href="#hire">Hire me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-text">
+        <h2>Gil Febreane U. Cabab – Web developer</h2>
+        <h3>Welcome to my Portfolio</h3>
+        <p>Hi! I’m Gil, a web developer with experience building interactive 3D experiences using Three.js and backend applications with Node.js. I specialize in responsive, user-friendly web applications that balance visuals and performance.</p>
+        <h3>What Sets Me Apart</h3>
+        <p>I turn ideas into interactive experiences. My Three.js work focuses on immersive visuals while my Node.js projects emphasize reliability and scalability. I write clean, maintainable code and enjoy collaborative problem solving.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="projects-text">
+        <h2>Highlighted Projects</h2>
+        <p>Here are some projects that demonstrate my skills and interests.</p>
+        <div class="projects-grid">
+          <article class="project-card">
+            <img class="project-img" src="ballgame.png" alt="Ball Game screenshot">
+            <div class="project-body">
+              <h3>Ball Game</h3>
+              <p>Three.js 3D scene with keyboard controls and basic hitboxes. Good for learning input and physics basics.</p>
+              <p class="tech">Three.js • JavaScript • HTML/CSS</p>
+              <div class="project-links"><a href="https://vercel.com/gfucs-projects" target="_blank" rel="noopener">Live Demo</a> <a href="https://github.com/GFUC1/-9x2t7q6v4p1m8k1z8/tree/main" target="_blank" rel="noopener">GitHub</a></div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img class="project-img" src="1v1shootinggame.png" alt="1vs1 shooting game screenshot">
+            <div class="project-body">
+              <h3>1vs1 Shooting Game</h3>
+              <p>Multiplayer-style shooter prototype built in Godot. Features target practice and local multiplayer controls.</p>
+              <p class="tech">Godot • GDScript • Game Design</p>
+              <div class="project-links"><a href="https://vercel.com/gfucs-projects" target="_blank" rel="noopener">Demo</a> <a href="https://github.com/GFUC1/-9x2t7q6v4p1m8k1z8/tree/main" target="_blank" rel="noopener">GitHub</a></div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img class="project-img" src="Inventorysystem.png" alt="Inventory management screenshot">
+            <div class="project-body">
+              <h3>Inventory Management System</h3>
+              <p>Desktop app for managing store inventory using Electron and PostgreSQL with CRUD operations and reporting.</p>
+              <p class="tech">Electron • Node.js • PostgreSQL</p>
+              <div class="project-links"><a href="https://vercel.com/gfucs-projects" target="_blank" rel="noopener">Demo</a> <a href="https://github.com/GFUC1/-9x2t7q6v4p1m8k1z8/tree/main" target="_blank" rel="noopener">GitHub</a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skillhobby" class="skillhobby">
+    <div class="container">
+      <div class="skillhobby-text">
+        <h2>Skills & Hobbies</h2>
+        <p>Technical skills with visual progress indicators and a list of hobbies.</p>
+        <h3>Technical Skills</h3>
+        <ul class="skills-list">
+          <li><span>HTML & CSS</span><progress max="100" value="95">95%</progress></li>
+          <li><span>JavaScript & ES6+</span><progress max="100" value="90">90%</progress></li>
+          <li><span>Godot</span><progress max="100" value="85">85%</progress></li>
+          <li><span>Three.js</span><progress max="100" value="60">60%</progress></li>
+          <li><span>Node.js</span><progress max="100" value="53">53%</progress></li>
+          <li><span>PostgreSQL</span><progress max="100" value="40">40%</progress></li>
+        </ul>
+        <h3>Hobbies & Interests</h3>
+        <ul class="hobbies-list">
+          <li>Playing guitar, piano, ukulele</li>
+          <li>Creating digital anime-style and pixel art</li>
+          <li>Playing and designing small games</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="hire" class="hire">
+    <div class="container hire-grid">
+      <div class="hire-text">
+        <h2>Let's Connect</h2>
+        <p>If you'd like to work together, email me at <a href="mailto:yanyanu.cabab@gmail.com">yanyanu.cabab@gmail.com</a> or use the form.</p>
+        <p>Thank you for visiting my portfolio!</p>
+        <div class="socials">
+          <a href="#" target="_blank" rel="noopener" aria-label="GitHub">
+            <img src="githubicon.webp" alt="">GitHub
+          </a>
+          <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <img src="linkedinicon.webp" alt="">LinkedIn
+          </a>
+          <a href="#" target="_blank" rel="noopener" aria-label="Twitter">
+            <img src="twittericon.webp" alt="">Twitter
+          </a>
+        </div>
+
+      </div>
+      <form id="contactForm" class="contact-form" action="mailto:yanyanu.cabab@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <div class="form-row">
+          <button type="submit" class="btn">Send</button>
+          <button type="reset" class="btn ghost">Reset</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> Gil Febreane U. Cabab — All Rights Reserved</p>
+    <p class="footer-links"><a href="#home">Top</a> · <a href="#hire">Contact</a></p>
+  </div>
+</footer>
+
+<button id="topBtn" aria-label="Back to top">↑</button>
+
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+const navToggle=document.getElementById('navToggle');
+const mainNav=document.getElementById('mainNav');
+navToggle.addEventListener('click',()=>{const expanded=navToggle.getAttribute('aria-expanded')==='true';navToggle.setAttribute('aria-expanded',!expanded);mainNav.classList.toggle('open');});
+document.querySelectorAll('.nav-link').forEach(a=>a.addEventListener('click',()=>{mainNav.classList.remove('open');navToggle.setAttribute('aria-expanded','false');}));
+const topBtn=document.getElementById('topBtn');
+window.addEventListener('scroll',()=>{topBtn.style.display=window.scrollY>300?'block':'none'});
+const sections=document.querySelectorAll('main section');
+const io=new IntersectionObserver(entries=>{entries.forEach(e=>{const id=e.target.id;const link=document.querySelector('.nav-link[href="#'+id+'"]');if(link)link.classList.toggle('active',e.isIntersecting);});},{threshold:0.6});
+sections.forEach(s=>io.observe(s));
+document.getElementById('contactForm').addEventListener('submit',e=>{const form=e.target;const mailAction=form.getAttribute('action');if(mailAction.startsWith('mailto:'))return;});
+</script>
+</body>
+</html>
